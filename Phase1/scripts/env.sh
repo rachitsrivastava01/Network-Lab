@@ -6,23 +6,27 @@
 NS_HQ="hq"
 NS_A="branch-a"
 NS_B="branch-b"
+NS_ISP="isp"
+NS_HQ_H="hq-host"
+NS_A_H="a-host"
+NS_B_H="b-host"
 
-#Veth Links between HQ and Branch A
-IF_HQ_A="veth-hq-a"
-IF_A_HQ="veth-a-hq"
-IP_HQ_A="172.16.12.1/30"
-IP_A_HQ="172.16.12.2/30"
+#Veth Links between HQ and ISP
+IF_HQ_ISP="veth-hq-isp"
+IF_ISP_HQ="veth-isp-hq"
+IP_HQ_ISP="192.0.0.2/30"
+IP_ISP_HQ="192.0.0.1/30"
 
-#Veth Links between Branch-A and Branch-B
-IF_A_B="veth-a-b"
-IF_B_A="veth-b-a"
-IP_A_B="172.16.23.1/30"
-IP_B_A="172.16.23.2/30"
+#Veth Links between Branch-A ISP
+IF_A_ISP="veth-a-isp"
+IF_ISP_A="veth-isp-a"
+IP_A_ISP="192.0.0.6/30"
+IP_ISP_A="192.0.0.5/30"
 
-#Veth links between HQ and Branch_B
-IF_HQ_B="veth-hq-b"
-IF_B_HQ="veth-b-hq"
-IP_B_HQ="172.16.31.1/30"
-IP_HQ_B="172.16.31.2/30"
+#Veth links between Branch_B and ISP
+IF_ISP_B="veth-isp-b"
+IF_B_ISP="veth-b-isp"
+IP_B_ISP="192.0.0.10/30"
+IP_ISP_B="192.0.0.9/30"
 
 
