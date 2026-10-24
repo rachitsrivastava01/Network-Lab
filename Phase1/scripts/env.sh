@@ -14,19 +14,19 @@ NS_B_H="b-host"
 #Veth Links between HQ and ISP
 IF_HQ_ISP="veth-hq-isp"
 IF_ISP_HQ="veth-isp-hq"
-IP_HQ_ISP="192.0.0.2/30"
-IP_ISP_HQ="192.0.0.1/30"
+IP_HQ_ISP="192.0.2.2/30"
+IP_ISP_HQ="192.0.2.1/30"
 
 #Veth Links between Branch-A ISP
 IF_A_ISP="veth-a-isp"
 IF_ISP_A="veth-isp-a"
-IP_A_ISP="192.0.0.6/30"
-IP_ISP_A="192.0.0.5/30"
+IP_A_ISP="192.0.2.6/30"
+IP_ISP_A="192.0.2.5/30"
 
 #Veth links between Branch_B and ISP
 IF_ISP_B="veth-isp-b"
 IF_B_ISP="veth-b-isp"
-IP_B_ISP="192.0.0.10/30"
-IP_ISP_B="192.0.0.9/30"
+IP_B_ISP="192.0.2.10/30"
+IP_ISP_B="192.0.2.9/30"
 
 
