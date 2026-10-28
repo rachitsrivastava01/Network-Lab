@@ -29,4 +29,9 @@ IF_B_ISP="veth-b-isp"
 IP_B_ISP="192.0.2.10/30"
 IP_ISP_B="192.0.2.9/30"
 
+#LAN (router ki IP aur host ki IP)
+IP_HQ_LAN="10.1.0.1/24";  IP_HQ_HOST="10.1.0.10/24"
+IP_A_LAN="10.2.0.1/24";   IP_A_HOST="10.2.0.10/24"
+IP_B_LAN="10.3.0.1/24";   IP_B_HOST="10.3.0.10/24"
+
 
